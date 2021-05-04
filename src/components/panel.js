@@ -1,9 +1,10 @@
 import Button from "./button";
+import Profile from "./Profile";
 
 function Panel() {
   return (
     <div>
-      <h2>Panel principal</h2>
+      <Profile />
       <Button></Button>
     </div>
   );
